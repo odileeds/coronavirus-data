@@ -1,0 +1,20 @@
+name: Grab latest data
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '25 * * * *'
+
+jobs:
+  build:
+    steps:
+      - name: Get latest files
+        run: node build.js
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data
+          git commit -m "Automated build $(date)"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
