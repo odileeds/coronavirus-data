@@ -1,5 +1,7 @@
 # Coronavirus datasets
 
+![Grab latest data](https://github.com/odileeds/coronavirus-data/workflows/Grab%20latest%20data/badge.svg?event=schedule)
+
 This is a mirror of the data presented on the [PHE Coronavirus Dashboard](https://coronavirus.data.gov.uk/).
 
 The data behind the dashboard is not easy to query, although it is obtainable by looking at [the dashboard codebase](https://github.com/PublicHealthEngland/coronavirus-dashboard).
