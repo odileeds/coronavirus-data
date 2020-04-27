@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2020-04-27T18:41:58.567094Z",
+  "lastUpdatedAt": "2020-04-27T19:32:24.632840Z",
   "disclaimer": "Lab-confirmed case counts for England and subnational areas are provided by Public Health England. All data on deaths and data for the rest of the UK are provided by the Department of Health and Social Care based on data from NHS England and the devolved administrations. Maps include Ordnance Survey data © Crown copyright and database right 2020 and Office for National Statistics data © Crown copyright and database right 2020. Daily and total case counts are as of 27 April 2020, Daily and total deaths are as of 26 April 2020. See the About the data page (link at top of this page) for details.",
   "overview": {
     "K02000001": {
@@ -7,10 +7,10 @@
         "value": "United Kingdom"
       },
       "totalCases": {
-        "value": 152840
+        "value": 157149
       },
       "newCases": {
-        "value": 2730
+        "value": 4310
       },
       "deaths": {
         "value": 21092
