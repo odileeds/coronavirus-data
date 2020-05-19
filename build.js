@@ -15,4 +15,8 @@ getData()
       fetchTimestamp: runTime.toISOString(),
     };
   })
-  .then(writeDataToFile('./data/metadata.json', { json: true }));
+  .then(writeDataToFile('./data/metadata.json', { json: true }))
+  .catch(error => {
+    console.error(error);
+    process.exit(1);
+  });
